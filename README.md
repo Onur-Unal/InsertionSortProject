@@ -25,13 +25,16 @@ Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden
 
 [22, 27, 16, 2, 18, 6] -> n
 
-En küçük eleman bulunur ve listenin ilk sırasına yerleştirilir. İlk sırada bulunan elemanı silmek istemiyoruz. O yüzden o elemanı taşıdığımız elemanın yerine koyarız (en küçük eleman 2, ilk sırada bulunan 22 ile yer değiştirir). 
+En küçük eleman bulunur ve listenin ilk sırasına yerleştirilir. İlk sırada bulunan elemanı silmek istemiyoruz. O yüzden o elemanı taşıdığımız elemanın yerine koyarız (en küçük eleman 2, ilk sırada bulunan 22 ile yer değiştirir).
+
 [2, 27, 16, 22, 18, 6] -> n-1
 
 En küçük ikinci eleman bulunarak aynı işlem yapılır, ikinci sıraya taşınır (en küçük ikinci eleman 6, ikinci sırada bulunan 27 ile yer değiştirir).
+
 [2, 6, 16, 22, 18, 27] -> n-2
 
 En küçük üçüncü eleman olan 16 sayısı zaten üçüncü sırada olduğu için bir sonraki küçük elemana bakılır (18 ile 22 yer değiştirir). Böylece tüm elemanlar küçükten büyüğe sıralanmış olur.
+
 [2, 6, 16, 18, 22, 27] -> 1
 
 ### Big O gösterimi:
